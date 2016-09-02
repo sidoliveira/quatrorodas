@@ -1,0 +1,29 @@
+@media (min-width: 768px){
+	#menu-primario{
+		height: 60px;
+	}
+	#menu-primario .logo{
+		margin: 15px 0 0;
+	}
+	
+	.menu{
+		margin: 5px 0 0 -100px;
+		width: 850px;
+		font-size: 9px;
+	}
+	.navbar-form{
+		width: 160px;
+	}
+	.demais-conteudos-lateral{
+		width: 25%;
+	}
+	.demais-conteudos-lateral img{
+	height: 161px;
+	}
+	.demais-conteudos{
+		width: 25%;
+	}
+	.demais-conteudos img{
+		height: 161px;
+	}
+}

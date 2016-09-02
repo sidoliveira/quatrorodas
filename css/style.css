@@ -1,0 +1,219 @@
+body{
+	background-color: #E6E6E6;
+}
+
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+.img-responsive{
+	margin: 0 auto;
+}
+
+/* banner */
+#banner{
+	padding: 1% 0%;
+}
+
+/* Menu primario */
+#menu-primario{
+	background-color: #ED1C24;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.navbar-nav ul{
+	padding: 5px 0 0;
+}
+.navbar-nav li a{
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	margin: -10px 0 0;
+	background: #ED1C24;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.navbar-nav li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+.navbar-nav .open > a, .navbar-nav .open > a:focus, .navbar-nav .open > a:hover{
+	background: #000;
+	color: #fff;
+}
+.navbar-nav li{
+	margin: -5px 0 0;
+	padding:10px 0 0;
+}
+.dropdown-toggle{
+	font-size: 8px;
+}
+.dropdown-menu{
+	font-size: 12px;
+}
+
+/* Menu secundario */
+#menu-secundario{
+	background-image: url(../imgs/bg-menu.jpg);
+	background-repeat: no-repeat;
+	background-color: #242424;
+}
+#sub-menu, #sub-menu1{
+	height: 25px;
+	padding: 0;
+}
+#sub-menu li a{
+	height: 25px;
+	padding: 7px 10px;
+	font-size: 8px;
+	color: #fff;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+#sub-menu1 li a{
+	font-size: 9px;
+	padding: 6px 10px;
+	color: #fff;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+#sub-menu li a:hover{
+	background-color: #242424;
+	text-decoration: underline;
+}
+#sub-menu1 li a:hover{
+	background: url(../imgs/bg-menu.jpg);
+	text-decoration: underline;
+}
+
+/* Destaques */
+
+.principal{
+	margin: 1% 0 0;
+}
+#destaques{
+	margin: 0;
+	padding: 0;
+}
+#destaques a{
+	color: #fff;
+}
+#destaques a:hover{
+	text-decoration: underline;
+}
+.destaque-principal{
+	text-align: right;
+	width: 330px;
+	margin: 0 0 -20px 60px;
+	padding: 0;
+}
+.destaque-principal h5{
+	margin-bottom: -10px;
+}
+
+.sub-destaques{
+	text-align: right;
+	width: 200px;
+	margin: 0 0 -20px -5px;
+	padding: 0;
+}
+.sub-destaques h5{
+	font-size: 8px;	
+}
+.sub-destaques h3{
+	font-size: 12px;
+	margin-top: -5px;
+}
+.sub-destaques h4{
+	background-color: red;
+	margin-left: 60px;
+	padding: 1px 5px;
+	font-size: 8px;
+}
+.glyphicon-stop{
+	color: red;
+}
+
+/* Demais Conteudos */
+
+.demais-conteudos-lateral{
+	margin: 20px 0 0;
+	padding: 0;
+	height: 320px;
+	float: left;
+}
+.demais-conteudos-lateral a{
+	color: #000;
+}
+.demais-conteudos-lateral a:hover{
+	text-decoration: underline;
+}
+.demais-conteudos-lateral h3{
+	text-align: left;
+	font-size: 12px;
+	padding: 0 0 0 10px;
+	color: red;
+}
+.legenda-demais-conteudos-lateral{
+	position: static;
+	margin: -30px 0 0;
+	padding: 0 0 0 10px;
+}
+.legenda-demais-conteudos-lateral h4{
+	text-align: left;
+	font-size: 8px;
+}
+.legenda-demais-conteudos-lateral h1{
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+.legenda-demais-conteudos-lateral p{
+	text-align: left;
+	font-size: 12px;
+	color: #000;
+}
+.demais-conteudos{
+	margin: 20px 0 0;
+	padding: 0 0 0 10px;
+	position: static;
+	float: left;
+}
+.demais-conteudos a{
+	color: #000;
+}
+.demais-conteudos a:hover{
+	text-decoration: underline;
+}
+.demais-conteudos h3{
+	text-align: left;
+	font-size: 12px;
+	padding: 15px 0 0 10px;
+	color: red;
+}
+.legenda-demais-conteudos{
+	position: static;
+	margin: -30px 0 0;
+	padding: 0 0 0 10px	;
+}
+.legenda-demais-conteudos h4{
+	text-align: left;
+	font-size: 8px;
+}
+.legenda-demais-conteudos h1{
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+.legenda-demais-conteudos p{
+	text-align: left;
+	font-size: 12px;
+	color: #000;
+}
+.sub{
+	padding: 0;
+	margin: -5px 0 0 0;
+}
