@@ -1,5 +1,0 @@
-@media (max-width: 768px){
-	#destaques{
-		margin: 5px 0 0;
-	}
-}	
